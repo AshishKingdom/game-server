@@ -2,8 +2,8 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 
-hostName = "ashishkingdom.azurewebsites.net"
-serverPort = 8080
+hostName = "localhost"
+serverPort = 80
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
